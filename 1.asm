@@ -1,0 +1,12 @@
+include 'emu8086.inc'
+ORG 100H
+
+
+
+RET
+stop:
+DEFINE_SCAN_NUM
+DEFINE_PRINT_NUM
+DEFINE_PRINT_NUM_UNS
+
+END
